@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Undertone: a free music player that streams songs as audio only</title>
+<meta name="description" content="Undertone finds songs on video sites and plays just the sound, with the screen off. Library, playlists, widgets, casting and Google Drive backup. Free, no adverts, no account.">
+<meta name="author" content="Jonathan Jackson">
+<link rel="canonical" href="https://customgpter.github.io/undertone/">
+<meta name="theme-color" content="#f6f3ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0f12" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Undertone">
+<meta property="og:title" content="Undertone: a free music player that streams songs as audio only">
+<meta property="og:description" content="Undertone finds songs on video sites and plays just the sound, with the screen off. Library, playlists, widgets, casting and Google Drive backup. Free, no adverts, no account.">
+<meta property="og:url" content="https://customgpter.github.io/undertone/">
+<meta property="og:image" content="https://customgpter.github.io/undertone/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Undertone&#x27;s playlist screen showing a playlist called Evening drive">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+<link rel="preload" href="./assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./assets/site.css?v=1">
+<link rel="stylesheet" href="./assets/house.css?v=1">
+<link rel="stylesheet" href="./assets/apps-list.css?v=1">
+<script src="./assets/apps-list.js?v=1" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Undertone","url":"https://customgpter.github.io/undertone/","description":"Undertone finds songs on video sites and plays just the sound, with the screen off. Library, playlists, widgets, casting and Google Drive backup. Free, no adverts, no account.","applicationCategory":"MultimediaApplication","operatingSystem":"Android 10 or later, 64-bit","softwareVersion":"1.2","downloadUrl":"https://github.com/CustomGPTer/undertone/releases/latest/download/Undertone.apk","releaseNotes":"https://customgpter.github.io/undertone/releases.html","offers":{"@type":"Offer","price":"0","priceCurrency":"GBP"},"inLanguage":"en-GB","image":"https://customgpter.github.io/undertone/assets/og.png","featureList":["Audio only, always the best quality","Loads the next song ahead","Endless","Sleep timer","Library and playlists","Removed songs flagged","Lyrics","Skip the talking","Widgets","Lock screen and notification","Android Auto and Bluetooth","Casting"],"author":{"@type":"Person","name":"Jonathan Jackson"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Undertone really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. There is no paid version, no subscription and no adverts, and nothing in the app is locked."}},{"@type":"Question","name":"Is Undertone on Google Play?","acceptedAnswer":{"@type":"Answer","text":"No. It is a personal project, downloaded from this site as an Android app file. It needs Android 10 or later on a 64-bit phone."}},{"@type":"Question","name":"Does it download songs?","acceptedAnswer":{"@type":"Answer","text":"No. Undertone streams the sound and loads the next song ahead, but nothing is kept on the phone. It needs an internet connection to play."}},{"@type":"Question","name":"Do I need an account?","acceptedAnswer":{"@type":"Answer","text":"No. You only sign in to Google if you want the Drive backup. Google Drive backup currently works only for Google accounts the developer has added while Google reviews the sign-in. Saving a backup to a file works for everyone."}},{"@type":"Question","name":"Where does the music come from?","acceptedAnswer":{"@type":"Answer","text":"From public video sites. Undertone finds the song and plays its sound. It does not host any music itself."}},{"@type":"Question","name":"How do I update Undertone?","acceptedAnswer":{"@type":"Answer","text":"Undertone tells you when a newer version is out. Download it from this site and install it over the one you have. Your library and playlists are kept."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+<div class="wrap">
+<a class="brand" href="./" aria-label="Undertone home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><linearGradient id="G" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1D2027"/><stop offset="1" stop-color="#0B0C0F"/></linearGradient></defs><rect width="108" height="108" rx="24" fill="url(#G)"/><path d="M34 48v12M44 41v26M54 32v44M64 41v26M74 48v12" fill="none" stroke="#F0B46A" stroke-width="5.5" stroke-linecap="round"/><path d="M36 80h36" fill="none" stroke="#F0B46A" stroke-opacity=".4" stroke-width="3" stroke-linecap="round"/></svg><span>Undertone</span></a>
+<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="./compare.html">Compare</a></li><li><a href="./releases.html">Releases</a></li><li><a class="more-apps" href="./more-apps.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li></ul></nav>
+<a class="button small" href="./#download"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download</a>
+</div>
+</header>
+<main id="main">
+<div class="hero">
+<div class="wrap hero-grid">
+<div class="hero-copy">
+<h1>Any song, just the sound, with the screen off</h1>
+<p class="lede">Undertone is a music player for Android. Search for a song, add it to your library, and it plays the audio only, so your phone can sit in your pocket with the screen off.</p><p class="lede">Playlists, home-screen widgets, the lock screen, your car and your speakers all work, and everything you save can be backed up to your own Google Drive.</p>
+
+<div class="gate-scope"><div class="law-box" data-gate><label><input type="checkbox"> I understand and will use this app within the law</label><p>Undertone plays music that other people own. <a href="terms.html#law">What the law says</a></p><noscript><p>Turn on JavaScript to tick the box and download.</p></noscript></div><p class="get" id="download"><a class="button" data-href="https://github.com/CustomGPTer/undertone/releases/latest/download/Undertone.apk" aria-disabled="true" role="link" tabindex="-1"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download for Android</a><a class="aside" href="#install">How to install</a></p></div>
+<ul class="pills"><li>Version 1.2</li><li>Android 10 or later, 64-bit</li><li>64 MB</li></ul>
+<p class="facts">Free, with nothing to unlock. No adverts, no account with the developer, no tracking. <a href="compare.html">Compare</a> or read the <a href="releases.html">release notes</a>.</p>
+<p class="facts">Chrome may say the file might be harmful. It shows this for app files that do not come from Google Play. Choose Download anyway.</p>
+</div>
+<div class="hero-phone"><div class="phone"><img src="./assets/screens/playlist.png" alt="A playlist with its length, ready to play or shuffle." width="393" height="852" fetchpriority="high"></div></div>
+</div>
+</div>
+
+<section class="promises" aria-label="In short">
+<div class="wrap"><ul><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>No subscription</b><span>Every feature is in the free app.</span></span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>No adverts</b><span>None in the app and none on this site.</span></span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>No account</b><span>Nothing to sign up for. Google sign-in is only for the optional backup.</span></span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>Audio only</b><span>Songs stream as sound, so they use less data.</span></span></li></ul></div>
+</section>
+
+<section id="screens" aria-labelledby="screens-h">
+<div class="wrap">
+<h2 id="screens-h">A look inside</h2>
+<p class="intro">These are the real screens, drawn from the app&#x27;s own code with made-up songs. Swipe or scroll sideways to see them all.</p>
+<div class="gallery" tabindex="0" role="region" aria-label="Screens from Undertone"><figure class="shot"><div class="phone"><img src="./assets/screens/library.png" alt="Your library: play it, shuffle it, or sort and search it." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Your library: play it, shuffle it, or sort and search it.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/playlist.png" alt="A playlist with its length, ready to play or shuffle." width="393" height="852" loading="eager" decoding="async"></div><figcaption>A playlist with its length, ready to play or shuffle.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/player.png" alt="Now playing, with Endless, the sleep timer and Add to." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Now playing, with Endless, the sleep timer and Add to.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/queue.png" alt="Up next: drag to reorder, or swipe a song away." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Up next: drag to reorder, or swipe a song away.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/playlists.png" alt="All your playlists in one list." width="393" height="852" loading="eager" decoding="async"></div><figcaption>All your playlists in one list.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/settings.png" alt="Settings for sound quality, loading ahead and the lock screen." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Settings for sound quality, loading ahead and the lock screen.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/equaliser.png" alt="Equaliser, bass boost and volume levelling." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Equaliser, bass boost and volume levelling.</figcaption></figure></div>
+</div>
+</section>
+
+<section id="how" aria-labelledby="how-h">
+<div class="wrap">
+<h2 id="how-h">How it works</h2>
+<p class="intro">There is nothing to buy and no account to make. Undertone looks songs up on public video sites and plays the sound.</p>
+<ol class="steps"><li><h3>Search for a song</h3><p>Type a song, an artist or an album, or paste a link. Results come in tabs: songs, videos, albums, artists and playlists.</p></li><li><h3>Tick and add</h3><p>Tick the songs you want and press Add. They go into your library and any playlists you choose.</p></li><li><h3>Press play and lock the phone</h3><p>The audio keeps playing with the screen off, with controls on the lock screen, in the notification, on Bluetooth and in the car.</p></li></ol>
+</div>
+</section>
+
+<section id="features" aria-labelledby="features-h">
+<div class="wrap">
+<h2 id="features-h">Everything is in, and all of it is free</h2>
+<p class="intro">Nothing below is held back for a paid tier, because there is no paid tier.</p>
+<div class="groups"><div class="group"><h3>Playing</h3><dl><div><dt>Audio only, always the best quality</dt><dd>The highest sound quality on offer, without the picture.</dd></div><div><dt>Loads the next song ahead</dt><dd>So a song carries on through a weak signal. Nothing is kept on the phone.</dd></div><div><dt>Endless</dt><dd>When the queue runs out, Undertone carries on with similar songs, if you want it to.</dd></div><div><dt>Sleep timer</dt><dd>Stop after a set time or at the end of the song.</dd></div></dl></div><div class="group"><h3>Your music</h3><dl><div><dt>Library and playlists</dt><dd>Sort, search and shuffle. Bring in playlists from a link.</dd></div><div><dt>Removed songs flagged</dt><dd>If a song disappears from the site, Undertone says so and suggests a replacement.</dd></div><div><dt>Lyrics</dt><dd>Synced lyrics where they are available.</dd></div><div><dt>Skip the talking</dt><dd>Optionally skip non-music parts such as intros, using a shared community list.</dd></div></dl></div><div class="group"><h3>Everywhere you listen</h3><dl><div><dt>Widgets</dt><dd>One resizable player widget, plus one-tap playlist buttons.</dd></div><div><dt>Lock screen and notification</dt><dd>With shuffle and repeat, or hidden if you prefer.</dd></div><div><dt>Android Auto and Bluetooth</dt><dd>Browse and play from the car.</dd></div><div><dt>Casting</dt><dd>Send the sound to speakers and TVs that support casting.</dd></div></dl></div><div class="group"><h3>Keeping it safe</h3><dl><div><dt>Google Drive backup</dt><dd>Library, playlists, settings and history, in a hidden folder only Undertone can see.</dd></div><div><dt>A copy to a file</dt><dd>Save a backup file anywhere you like, and load it back.</dd></div><div><dt>New-version notice</dt><dd>Undertone tells you when a newer version is out.</dd></div></dl></div></div>
+</div>
+</section>
+
+<section id="privacy" aria-labelledby="privacy-h">
+<div class="wrap">
+<h2 id="privacy-h">Your listening is your business</h2>
+<ul class="plain"><li><h3>No servers</h3><p>Undertone has no accounts and no servers of its own. The developer never receives what you search for or play.</p></li><li><h3>No ads, no tracking</h3><p>There is no advertising, no analytics and no tracking in the app or on this site.</p></li><li><h3>A narrow Drive permission</h3><p>The backup can only see a hidden folder that belongs to Undertone. It cannot read anything else in your Drive.</p></li></ul>
+</div>
+</section>
+
+<section id="law" aria-labelledby="law-h" class="law-band">
+<div class="wrap">
+<h2 id="law-h">Use it within the law</h2>
+<p class="intro">Undertone plays songs that are published on public video sites. Most of that music belongs to someone else. Use it for your own listening, in line with the law and the terms of the sites the songs come from.</p>
+<ul class="ticks"><li><b>Copyright, Designs and Patents Act 1988.</b> Recording, copying, sharing or playing music in public without permission can infringe copyright.</li><li><b>The terms of the sites you listen from.</b> Many video sites set their own rules on how their content may be used.</li><li><b>UK GDPR and the Data Protection Act 2018.</b> If you cast or share someone else's playlists or listening history, respect their privacy.</li></ul>
+<p class="after-table">Laws differ in other countries. If you are not in the UK, the rules where you are apply. Read the <a href="terms.html#law">terms of use</a>.</p>
+</div>
+</section>
+<section id="install" aria-labelledby="install-h">
+<div class="wrap">
+<h2 id="install-h">Installing and updating</h2>
+<p class="intro">Undertone is not on Google Play, so your phone asks a couple of extra questions the first time.</p>
+<ol class="steps"><li><h3>Download the app file</h3><p>Tap Download on your phone. The file is called Undertone.apk and is about 64 MB. If Chrome says the file might be harmful, choose Download anyway. First tick the box to say you will use the app within the law.</p></li><li><h3>Allow the install</h3><p>Open the file. The first time, Android asks you to allow your browser to install apps. Allow it, go back and tap Install. If Google Play Protect steps in, choose More details, then Install anyway.</p></li><li><h3>Updating later</h3><p>Undertone tells you when a newer version is out. Install the new file over the old one and everything you have saved is kept.</p></li></ol>
+<p class="after-table">Version 1.2, released 21 November 2026. See the <a href="releases.html">release notes</a>, or <a href="releases.html#checking">check your download</a>.</p>
+</div>
+</section>
+
+<section id="questions" aria-labelledby="questions-h">
+<div class="wrap">
+<h2 id="questions-h">Questions</h2>
+<div class="faq"><details><summary>Is Undertone really free?</summary><p>Yes. There is no paid version, no subscription and no adverts, and nothing in the app is locked.</p></details><details><summary>Is Undertone on Google Play?</summary><p>No. It is a personal project, downloaded from this site as an Android app file. It needs Android 10 or later on a 64-bit phone.</p></details><details><summary>Does it download songs?</summary><p>No. Undertone streams the sound and loads the next song ahead, but nothing is kept on the phone. It needs an internet connection to play.</p></details><details><summary>Do I need an account?</summary><p>No. You only sign in to Google if you want the Drive backup. Google Drive backup currently works only for Google accounts the developer has added while Google reviews the sign-in. Saving a backup to a file works for everyone.</p></details><details><summary>Where does the music come from?</summary><p>From public video sites. Undertone finds the song and plays its sound. It does not host any music itself.</p></details><details><summary>How do I update Undertone?</summary><p>Undertone tells you when a newer version is out. Download it from this site and install it over the one you have. Your library and playlists are kept.</p></details></div>
+</div>
+</section>
+
+<section class="closing" aria-labelledby="closing-h">
+<div class="wrap">
+<div><h2 id="closing-h">Music in your pocket, screen off</h2><p>Free, with no adverts and nothing to unlock. Made by the developer of several other free Android apps: <a href="more-apps.html">see them all</a>.</p></div>
+<a class="button" href="./#download"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download for Android</a>
+</div>
+</section>
+</main>
+<footer class="colophon">
+<div class="wrap">
+<div>
+<a class="brand" href="./" aria-label="Undertone home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><linearGradient id="G" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1D2027"/><stop offset="1" stop-color="#0B0C0F"/></linearGradient></defs><rect width="108" height="108" rx="24" fill="url(#G)"/><path d="M34 48v12M44 41v26M54 32v44M64 41v26M74 48v12" fill="none" stroke="#F0B46A" stroke-width="5.5" stroke-linecap="round"/><path d="M36 80h36" fill="none" stroke="#F0B46A" stroke-opacity=".4" stroke-width="3" stroke-linecap="round"/></svg><span>Undertone</span></a>
+<p>&copy; 2026 Jonathan Jackson. Undertone is an independent app.</p>
+<p>This site uses no cookies and no tracking. The only script on it unlocks the download once the lawful-use box is ticked.</p>
+<p>Set in Bricolage Grotesque and Atkinson Hyperlegible.</p>
+</div>
+<nav aria-label="The app"><h2>The app</h2><ul>
+<li><a href="./">Home</a></li>
+<li><a href="./compare.html">Compare</a></li>
+<li><a href="./releases.html">Release notes</a></li>
+</ul></nav>
+<nav aria-label="Legal"><h2>Legal</h2><ul>
+<li><a href="./privacy.html">Privacy policy</a></li>
+<li><a href="./terms.html">Terms of use</a></li>
+<li><a href="./licences.html">Licences</a></li>
+</ul></nav>
+<nav aria-label="More"><h2>More</h2><ul>
+<li><a href="./more-apps.html">More apps</a></li>
+<li><a href="https://customgpter.github.io/">All apps</a></li>
+<li><a href="https://github.com/CustomGPTer/undertone/issues">Contact</a></li>
+</ul></nav>
+</div>
+</footer>
+</body>
+</html>
